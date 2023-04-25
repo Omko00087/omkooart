@@ -1,0 +1,9 @@
+Package: my.yahya.hi
+Name:Yahyaios
+Depends: mobilesubstrate
+Version: 2.0
+Architecture: iphoneos-arm
+Description: text+login by yahyaios !
+Maintainer: yahyaios
+Author: yahyaios 
+Section: Tweaks
