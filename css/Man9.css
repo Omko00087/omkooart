@@ -1,0 +1,134 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+*,html{
+    
+}
+
+body,
+html {
+  margin: 0px;
+  font-family: 'Cairo', sans-serif !important; 
+  background-color: #212130;
+  color: #fff;
+}
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+  margin-left: 0;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+
+.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 49.2%;
+}
+
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .span_2_of_2,
+  .span_1_of_2 {
+    width: 100%;
+  }
+}
+
+.titlle {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.pview {
+  width: 75%;
+  max-width: 350px;
+  border-radius: 10px;
+
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 23.3%;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.install {
+  display: block;
+  width: 250px;
+  border-radius: 15px;
+  background-color: #28293d;
+  margin: 15px;
+  padding: 18px;
+  color: #fff;
+}
+
+.slogan {
+  margin: 10px;
+  font-size: 20px;
+  color: #777;
+  font-weight: 400;
+}
+
+.card {
+  width: 80%;
+  height: 350px;
+  background-color: #28293d;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.span_3_of_3 {
+  width: 100%;
+}
+.span_2_of_3 {
+  width: 66.13%;
+}
+.span_1_of_3 {
+  width: 32.26%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+  .span_3_of_3,
+  .span_2_of_3,
+  .span_1_of_3 {
+    width: 100%;
+  }
+}
+img[alt="www.000webhost.com"]{display:none;}
+
