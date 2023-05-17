@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+
+*{
+margin:0;
+padding:0;
+background:#222;
+color:rgb(220,220,220);
+}
+
+.back {
+background:#252525 ;
+width:100%;
+height:700px;
+margin:10px;
+margin-top:80px;
+border-radius: 10px;
+display:inline-block;
+
+
+}
+
+img{
+ float: right;
+ background:none;
+ margin-right: 10px;
+ border-radius: 13px;
+ margin-top:-20px;
+ display:inline-block;
+ width: 100px ;
+ height: 100px ;
+ border: 2px #666 solid;
+ border-radius: 13px;
+   }
+
+
+.appname {
+  
+  background:none;
+  font-family: Verdana ;
+  float:right;
+  margin-right:10px;
+  margin-top:4px;
+  padding-left:120px;
+  
+  
+}
+
+
+.appbundle {
+
+  background:none;
+  color:#999;
+  font-family: Verdana;
+  float:right;
+  margin-right:10px;
+  font-size:10px;
+  padding-left:190px;
+  margin-top:10px;
+  
+}
+
+.dnum {
+display:inline-block;
+width:90px;
+height:40px;
+background:#f22c2c;
+border-radius:5px;
+margin-right:10px;
+float:right;  
+color:rgb(240,240,240);
+}
+.pdnum {
+font-size:12px;
+text-align:center;
+background:none;
+font-family:'Droid Arabic Kufi', serif;
+color:rgb(240,240,240);
+}
+
+.size {
+display:inline-block;
+width:90px;
+height:40px;
+background:#2ca9f2;
+border-radius:5px;
+margin:0 5px;
+float:right; 
+color:rgb(240,240,240);
+}
+.psize {
+font-size:12px;
+text-align:center;
+background:none;
+font-family:'Droid Arabic Kufi', serif;
+color:rgb(240,240,240);
+}
+
+.virsion {
+display:inline-block;
+width:90px;
+height:40px;
+background:#f22c2c;
+border-radius:5px;
+float:right;
+color:rgb(240,240,240);
+}
+.pvirsion {
+font-size:12px;
+text-align:center;
+background:none;
+font-family:'Droid Arabic Kufi', serif;
+color:rgb(240,240,240);
+}
+
+.pnumber {
+font-size:14px;
+text-align:center;
+background:none;
+font-family: Monaco ,bold;
+margin-top:-2px;
+color:rgb(240,240,240);
+}
+
+
+.discription {
+width:95%;
+height:500px;
+border:1px #494949 solid ;
+border-radius:10px;
+margin-top:100px;
+margin-left:10px;
+margin-right:10px;
+background:#252525;
+}
+
+.appdis {
+display:inline-block;
+float:right;
+background:none;
+color:#787878;
+margin:10px;
+font-family:'Droid Arabic Kufi', serif;
+}
+
+
+.download {
+width:95%;
+height:50px;
+border:1px #494949 solid ;
+background:#252525;
+margin-left:10px;
+margin-right:10px;
+margin-top:20px;
+border-radius: 10px;
+}
+
+
+.button1 {
+    width:80px;
+    text-align: center;
+    padding: 6px 3px;
+    background:#e88c35; 
+    color:#f9f9f9; 
+    float: right;
+    border-radius:5px;
+    font-size: 16px;
+    margin:5px;
+    margin-top:3px;
+    transition-duration: 0.4s;
+    display:inline-block;
+    font-family:'Droid Arabic Kufi', serif;
+    
+
+}
+
+
+
+
+
+
+

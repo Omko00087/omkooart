@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/falcon-i-moon-camera-1.44-1656189488/FALCON-iMoonCamera_1.44_1656189488.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.imoon.anas</string>
+				<key>bundle-version</key>
+				<string>1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>imoon</string>
+				<key>title</key>
+				<string> I MOON PRO
+				
+‎تایەبەتە بە چەناڵی
+
+
+FALCON_SHOTER
+
+
+‎لەسەر مەسئولیاتی خۆت بەکاری بێنە
+
+
+ </string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

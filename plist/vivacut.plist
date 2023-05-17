@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/falcon-viva-cut-2.12.5-1656144750/FALCON-Viva%20Cut_2.12.5_1656144750.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.vivacut.anas</string>
+				<key>bundle-version</key>
+				<string>1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>viva</string>
+				<key>title</key>
+				<string> VIVA CUT PRO
+
+
+تایەبەتە بە چەناڵی  
+
+
+ANAS-IOS-STORE     
+
+لەتێلێگرام
+
+ </string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

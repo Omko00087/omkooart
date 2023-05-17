@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/falcon-you-tube-17.22.3-1656108185/FALCON-YouTube_17.22.3_1656108185.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.youtube.anas</string>
+				<key>bundle-version</key>
+				<string>1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>youtube</string>
+				<key>title</key>
+				<string> youtube ++ 
+تایەبەتە بە چەناڵی  
+
+ANAS-IOS-STORE     
+
+
+ </string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

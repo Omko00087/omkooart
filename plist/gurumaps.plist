@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/falcon-guru-maps-pro-4.9.11-1656148519/FALCON-Guru%20Maps%20Pro_4.9.11_1656148519.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.guru.anas</string>
+				<key>bundle-version</key>
+				<string>1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>guru</string>
+				<key>title</key>
+				<string> guru maps pro
+
+
+تایەبەتە بە چەناڵی  
+
+
+ANAS-IOS-STORE     
+
+
+لەتێلێگرام
+
+ </string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

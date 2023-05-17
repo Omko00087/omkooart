@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/falcon-bully-1.03.6-1656152175/FALCON-Bully_1.03.6_1656152175.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://anas-ios.netlify.app/icon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.bully.anas</string>
+				<key>bundle-version</key>
+				<string>1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>bully</string>
+				<key>title</key>
+				<string> BULLY
+
+
+تایەبەتە بە چەناڵی  
+
+
+ANAS-IOS-STORE     
+
+لەتێلێگرام
+
+ </string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
