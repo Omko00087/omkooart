@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/video-star-hack-8.3.2-1682504259/VideoStar%20Hack_8.3.2_1682504259.ipa</string>
+					<string>https://archive.org/download/roblox-omko-store_202304/Roblox_OMKO%20STORE.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,15 +33,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostar150</string>
+				<string>com.roblox.robloxmobile12</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Video Star Hack</string>
+				<string>RobloxHack</string>
 				<key>title</key>
-				<string>Video Star Hack</string>
+				<string>Roblox Hack</string>
 			</dict>
 		</dict>
 	</array>
