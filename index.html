@@ -1,231 +1,1330 @@
 <!DOCTYPE html>
 <html>
-  <head>
+	
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+		<meta name="theme-color" content="#1DA1F2">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="msapplication-tap-highlight" content="no">
+		<title>Kurd store</title>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="apple-touch-icon" href="https://kurdstore.info/assets/icon/icon.png">
+		<link rel="icon" href="https://kurdstore.info/assets/icon/icon.png">
+		<link rel="stylesheet" href="framework7/css/framework7.bundle.min.css">
+		<link rel="stylesheet" href="css/icons.css">
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<div id="app">
+			<div class="views tabs safe-areas">
+				<div class="toolbar toolbar-bottom tabbar-labels">
+					<div class="toolbar-inner">
+						<a href="#homeTab" class="tab-link tab-link-active">
+							<i class="icon f7-icons if-not-md">today</i>
+							<i class="icon material-icons if-md">today</i>
+							<span class="tabbar-label">سه‌ره‌كی</span>
+						</a>
+						<a href="#appsTab" class="tab-link">
+							<i class="icon f7-icons if-not-md">rectangle_fill_on_rectangle_angled_fill</i>
+							<i class="icon material-icons if-md">rectangle_fill_on_rectangle_angled_fill</i>
+							<span class="tabbar-label">ئه‌په‌كان</span>
+						</a>
+						<a href="#server" class="tab-link">
+							<i class="icon f7-icons if-not-md">square_stack_3d_down_right_fill</i>
+							<i class="icon material-icons if-md">square_stack_3d_down_right_fill</i>
+							<span class="tabbar-label">سێرفەری تر</span>
+						</a>
+						<a href="#creditsTab" class="tab-link">
+							<i class="icon f7-icons if-not-md">info_circle_fill</i>
+							<i class="icon material-icons if-md">info_circle_fill</i>
+							<span class="tabbar-label">به‌ڕێوبه‌ر</span>
+						</a>
+					</div>
+				</div>
 
+				<div id="view-home" class="view view-main view-init tab tab-active">
+					<div class="page" data-name="home">
+						<div class="navbar navbar-large">
+							<div class="navbar-bg"></div>
+							<div class="navbar-inner">
+								<div class="title sliding">كورد ستۆر</div>
+								<div class="title-large">
+									<div class="title-large-text" style="text-align: right;">كورد ستۆر</div>
+								</div>
+							</div>
+						</div>
+					<div class="tabs">
+					<div class="tab tab-active page-content" id="homeTab">
+				<div class="block-title" style="text-align: right;">پێگه‌كان</div>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="title" content="Template anas">
-    <meta name="description" content="Template anas">
-    <meta name="keywords" content=" pubg hack,anas-ios,video star hack">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="Arabic">
-    <meta name="revisit-after" content="7 days">
-    <meta name="author" content="anas ios">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<div class="block block-strong">
+					<div class="row">
+						<div class="col-50">
+							<a href="https://www.instagram.com/ary__graphic" class="button button-raised button-fill external">له‌ ئنستاگرام</a>
+						</div>
+						<div class="col-50">
+							<a href="https://t.me/ari_m1" class="button button-raised button-fill external">له‌ ته‌له‌گرام</a>
+						</div>
+						<div class="col" style="margin-top: 16px">
+							<a href="https://t.me/ferkaribokurd11" class="button button-raised button-fill external">له‌ چه‌ناڵی ته‌له‌گرام‌</a>
+						</div>
+					</div>
+				</div>
 
-  
-    <title>OMKO STORE</title>
-  </head>
-<body>
-<div id="ku">
-<div class="rg">   </div>
-<img src="img/moon.png" onclick="dark()" class="dark" id="dark"></img>
-<img src="img/ku.png" onclick="dark()" class="lang" id="lang"></img>
+				<div class="block-title" style="text-align: right;">زۆرترین داواكاری</div>
+				<div class="list media-list" id="all">
+					<ul>
+						<li>
+							<a href="#" style="color: inherit;" class="popup-open">
+							<div onclick="location='fb://profile/1419940448223547'" class="item-content">
+								<div class="item-media">
+									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="/cdn/images/facebook.png">
+								</div>
+								<div class="item-inner">
+									<div class="item-title-row">
+										<div class="item-title">گرووپی فەسبووکمان</div>
+									</div>
+									<div class="item-title-row">
+										<div class="item-subtitle">گرووپێکی تایبەت فێرکاری</div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+							<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/unc0ver.php'" class="item-content">
+								<div class="item-media">
+									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/unc0ver.png">
+								</div>
+								<div class="item-inner">
+									<div class="item-title-row">
+										<div class="item-title">unc0ver</div>
+										<div class="item-title" style="color: #808080">v6.1.1</div>
+									</div>
+									<div class="item-title-row">
+										<div class="item-subtitle">@unc0verTeam</div>
+										<div class="item-subtitle" style="color: #808080">جه‌ڵبرێك</div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+							<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/videostarAri.php'" class="item-content">
+								<div class="item-media">
+									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
+								</div>
+								<div class="item-inner">
+									<div class="item-title-row">
+										<div class="item-title">videostar(ari)</div>
+										<div class="item-title" style="color: #808080">v8.3.2</div>
+									</div>
+									<div class="item-title-row">
+										<div class="item-subtitle">@ari_m1</div>
+										<div class="item-subtitle" style="color: #808080">کۆد بە لۆن ئیشئەکات</div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+							<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/videostar.php'" class="item-content">
+								<div class="item-media">
+									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
+								</div>
+								<div class="item-inner">
+									<div class="item-title-row">
+										<div class="item-title">videostar ++</div>
+										<div class="item-title" style="color: #808080">v8.3.2</div>
+									</div>
+									<div class="item-title-row">
+										<div class="item-subtitle">@Frontier</div>
+										<div class="item-subtitle" style="color: #808080">کۆد ئیشناکات</div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>
+						<!--  
+							
+							<li>
+							<a href="#" style="color: inherit;" class="popup-open" data-popup="#appleid">
+							<div class="item-content">
+								<div class="item-media">
+									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/apple.png">
+								</div>
+								<div class="item-inner">
+									<div class="item-title-row">
+										<div class="item-title">ئەپڵ ئایدی</div>
+									</div>
+									<div class="item-title-row">
+										<div class="item-subtitle">ئەپڵ ئایدی بۆ دابەزاندنی بەرنامە و یاری پارەکان</div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>
+									--> 		
+								 			</ul>
+				</div>
+			<div class="block-title" style="text-align: right;">پرسیار؟</div>
+			<div class="block block-strong">
+				<h2 style="text-align: right;">بۆچی ئه‌په‌‌كان كار ناكات لی من ؟</h2>
+				<p style="font-size: 15px;text-align: right;">هه‌ركاتێك ئه‌پێكت دابه‌زاند ڕه‌ش بوو یان كراشی كرد ئه‌وه‌ له‌لایه‌ن ئه‌پڵه‌وه‌ وه‌ستێنراوه‌ پێویسته‌ نوێكرته‌وه‌</p>
 
-
-
- <center><h1 class="alph">OMKO STORE</h1></center>
-  
-
-
-<ul id="ul-ku">
-  <section>
-    <div class="n">
-      <h2>apps</h2>
-      <h2>apps</h2>
-    </div>
-  </section>
-
-  <hr>
-  <br>
- <br>
-  <br>
-  
-
-
-
-
- <li class="list-group-item">
-    <span class="icon"> <img src="img/videostar.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostoree.netlify.app//plist/videostar.plist">install</a>
-   <div class="parag"><p>Video Star++</p><div class="b"></div>
-</div> 
-    <p class="p1">هەموو بەشەکان کراوەتەوە</p>
-  </li>
-  
-  <hr>
+			</div>
+			<div class="block-title" style="text-align: right;">ده‌رباره‌ فێرکاری بۆ کورد</div>
+			<div class="block block-strong">
+				<h2 style="text-align: right;">فێرکاری بۆ کورد</h2>
+				<p style="font-size: 15px;text-align: right">سەرەتا چەناڵەکەمان ناوی بینکۆد بۆ کورد بوو تەنها بین کۆدمان پۆست ئەکرد دوای ئەوەی گەیشتین بە ١٥٠ ئەندام ناوم گۆری بۆ فێرکاری بۆ کورد سپاس بۆ خوا ئێستا زیاد لە ٤٠٠٠ کەس سودمەندن لە پۆستەکانمان <br>
+				لە چەناڵەکەمان ڕۆژانە فێرکاری و زانیاری بەسود دائەنێن دەربارەی هەموو سیستەمەکان و بین کۆد زانیاری زیاتریش</p>
  
-<li class="list-group-item">
-    <span class="icon"> <img src="img/videostarpro.png"> </span>
-    <a id="r"  class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/unc0ver.plist">install</a>
-   <div class="parag"><p>Video Star Pro</p><div class="b"></div>
+			</div>
+		<center>
+				<p style="color: #808080;margin-top:-20px;" id="info_label"></p>
+			</center>
+			
+		</div>
+		<div class="tab page-content" id="appsTab">
+			<div class="block-title" style="text-align: right;">به‌شه‌كان</div>
+			<div class="list media-list" id="all">
+				<ul>
+					<li>
+						<a href="#" style="color: inherit;" class="popup-open" data-popup="#jbs-popup">
+						<div class="item-content">
+							<div class="item-media">
+								<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/Cydia.png">
+							</div>
+							<div class="item-inner">
+								<div class="item-title-row">
+									<div class="item-title">جه‌ڵبرێك</div>
+								</div>
+								<div class="item-title-row">
+									<div class="item-subtitle">ئه‌وه‌ ئه‌پانه‌ی جه‌ڵبرێكی پێ ئه‌كرێ</div>
+								</div>
+							</div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" style="color: inherit;" class="popup-open" data-popup="#socialmedia">
+						<div class="item-content">
+							<div class="item-media">
+								<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/plus.png">
+							</div>
+							<div class="item-inner">
+								<div class="item-title-row">
+									<div class="item-title">تۆڕەکان</div>
+								</div>
+								<div class="item-title-row">
+									<div class="item-subtitle">زیادکراو بۆ تۆرەکۆمەڵایەتیەکان</div>
+								</div>
+							</div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" style="color: inherit;" class="popup-open" data-popup="#other-popup">
+						<div class="item-content">
+							<div class="item-media">
+								<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/arrii.png">
+							</div>
+							<div class="item-inner">
+								<div class="item-title-row">
+									<div class="item-title">ئه‌په‌كان</div>
+								</div>
+								<div class="item-title-row">
+									<div class="item-subtitle">كراككراو زیادكراوه‌كان</div>
+								</div>
+							</div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" style="color: inherit;" class="popup-open" data-popup="#storek">
+						<div class="item-content">
+							<div class="item-media">
+								<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/store,png.jpg">
+							</div>
+							<div class="item-inner">
+								<div class="item-title-row">
+									<div class="item-title">ستۆرەکان</div>
+								</div>
+								<div class="item-title-row">
+									<div class="item-subtitle">باشترین ستۆرەکان</div>
+								</div>
+							</div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" style="color: inherit;" class="popup-open" data-popup="#pubghk">
+						<div class="item-content">
+							<div class="item-media">
+								<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/pubg.png">
+							</div>
+							<div class="item-inner">
+								<div class="item-title-row">
+									<div class="item-title">پۆبجی هاککراو</div>
+								</div>
+								<div class="item-title-row">
+									<div class="item-subtitle">دابەزاندنی پەبجی هاککراو بێ سیدیا</div>
+								</div>
+							</div>
+						</div>
+						</a>
+						<a href="#" style="color: inherit;" class="popup-open" data-popup="#mod">
+							<div class="item-content">
+								<div class="item-media">
+									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/fix.jpg">
+								</div>
+								<div class="item-inner">
+									<div class="item-title-row">
+										<div class="item-title">شتی تر</div>
+									</div>
+									<div class="item-title-row">
+										<div class="item-subtitle">...دابەزاندنی ئەلتستۆر و چاره‌س</div>
+									</div>
+								</div>
+							</div>
+							</a>
+						</li>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+<div class="tab page-content" id="server">
+	<div class="block-title" style="text-align: right;">سێرفەرەکانی مارکێتەکانی تر</div>
+	<div class="list media-list" id="all">
+		<ul>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/unc0ver.php'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/unc0ver.png">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">unc0ver</div>
+							<div class="item-title" style="color: #808080">v6.1.1</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی یەکەم</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=https://files.getzeus.app/install.php?app=unc0ver'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/unc0ver.png">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">unc0ver</div>
+							<div class="item-title" style="color: #808080">v6.1.1</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی دووەم</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=https://app.app-valley.vip/plists/1574/install.plist'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/unc0ver.png">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">unc0ver</div>
+							<div class="item-title" style="color: #808080">v6.1.1</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی سێیەم</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/unc0ver.plist'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/unc0ver.png">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">unc0ver</div>
+							<div class="item-title" style="color: #808080">v6.1.1</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی چوارەم</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=https://file.ipa-apps.me/plist/Unc0ver_k.plist'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/unc0ver.png">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">unc0ver</div>
+							<div class="item-title" style="color: #808080">v6.1.1</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی پێنجەم</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/Taurine.php'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/Taurine.jpg">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">Taurine</div>
+							<div class="item-title" style="color: #808080">v1.0</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی یەکەم</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/Taurine.plist'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/Taurine.jpg">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">Taurine</div>
+							<div class="item-title" style="color: #808080">v1.0</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی دووەم</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/videostar.php'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">videostar</div>
+							<div class="item-title" style="color: #808080">v9.1.13</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی یه‌که‌م</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+				<div onclick="location='itms-services://?action=download-manifest&url=https://tweakdoor.com/down/ipa/aHR0cHM6Ly9hcmNoaXZlLm9yZy9kb3dubG9hZC92aWRlby1zdGFyXzIwMjEwMzMwL1ZpZGVvJTIwU3Rhci5pcGE/app/video+Star++'" class="item-content">
+					<div class="item-media">
+						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
+					</div>
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">videostar</div>
+							<div class="item-title" style="color: #808080">v9.1.13</div>
+						</div>
+						<div class="item-title-row">
+							<div class="item-subtitle">لینکی دووەم</div>
+							<div class="item-subtitle" style="color: #808080"></div>
+						</div>
+					</div>
+				</div>
+				</a>
+			</li>
+				</li>
+			</li>
+		</ul>
+	</div>
 </div>
-    <p class="p1">جەیلبرەیکی ڤێرژن ١١تا ١٤.٨</p>
-  </li>
-  
-  <hr>
 
 
 
 
-
-  <li class="list-group-item">
-    <span class="icon"> <img src="img/pubggl.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">install</a>
-   <div class="parag"><p>PUBG Gl HACK</p><div class="b"></div>
-<p class="p1">ئاپکەیک ستۆر کۆتا ئەپدەیت</p>  </li>
-  
-  <hr>
-
-
-
-
-  <li class="list-group-item">
-    <span class="icon"> <img src="img/pubgkr.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">install</a>
-   <div class="parag"><p>PUBG KR HACK</p><div class="g"></div> 
-  <p class="p1">جەیلبرەیکی ڤێرژن ١٤تا١٤.٣</p>
-
-  </li>
-  
-  <hr>
-
-
-
-
-
-  <li class="list-group-item">
-    <span class="icon"> <img src="img/carparking.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">install</a>
-   <div class="parag"><p>Car Parking</p><div class="b"></div> 
-  <p class="p1"> چامپی بێ کۆتا</p>
-  </li>
-  
-  <hr>
-  <li class="list-group-item">
-    <span class="icon"> <img src="img/roblox.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">install</a>
-   <div class="parag"><p>Roblox</p><div class="g"></div> 
-  <p class="p1">بینینی نامە سراوەکان  </p>
-  </li>
-  
-  <hr>
-
-
-
-
-
-  <li class="list-group-item">
-    <span class="icon"> <img src="img/myip.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install<i class="gg-arrow-down-r">‎</i></a>
-   <div class="parag"><p>MyIp</p>
-<div class="g"></div> 
-   <p class="p1">بینینی فایلەکانی رۆت بۆ ڤێرژن ١٥</p>
- </li>
-  
-
-<li class="list-group-item">
-    <span class="icon"> <img src="img/snapchatx.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install<i class="gg-arrow-down-r">‎</i></a>
-   <div class="parag"><p>Snapchat X</p>
-<div class="g"></div> 
-   <p class="p1">ماین کرافت کۆتا ئاپدەیت </p>
-</li>
-  
-<li class="list-group-item">
-    <span class="icon"> <img src="img/snapchatpremium.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install<i class="gg-arrow-down-r">‎</i></a>
-   <div class="parag"><p>Snapchat Premium</p>
-<div class="g"></div> 
-   <p class="p1">گۆرینی تایبەتمەندی مۆبایلەکەت</p>
-</li>
-
-
-<li class="list-group-item">
-    <span class="icon"> <img src="img/lihtroom.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install<i class="gg-arrow-down-r">‎</i></a>
-   <div class="parag"><p>Lihtroom</p>
-<div class="g"></div> 
-   <p class="p1">فول سەیف،ئیئێسپی،ئایمبۆت</p>
-</li>
-
-<li class="list-group-item">
-    <span class="icon"> <img src="img/org2023.png"> </span>
-    <a id="r"  class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install</a>
-   <div class="parag"><p>Org 2023</p>
-<div class="b"></div> 
-</li>
-
-<li class="list-group-item">
-    <span class="icon"> <img src="img/ppsspp.png"> </span>
-    <a id="r"  class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install</a>
-   <div class="parag"><p>ppsspp</p>
-<div class="r"></div> 
- 
-</li>
-
-<li class="list-group-item">
-    <span class="icon"> <img src="img/esign.png"> </span>
-    <a id="r"  class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install</a>
-   <div class="parag"><p>Esign</p>
-<div class="r"></div> 
-
-</li>
-
-<li class="list-group-item">
-    <span class="icon"> <img src="img/blacklist.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install<i class="gg-arrow-down-r">‎</i></a>
-   <div class="parag"><p>Blacklist</p>
-<div class="r"></div> 
-   <p class="p1">پارەی بێ سنور</p>
-</li>
+		
+		<div class="tab page-content" id="creditsTab">
+			<div class="block-title" style="text-align: right;">به‌ڕێوبه‌ر</div>
+			<div class="list media-list">
+				<ul>
+					<li>
+						<div onclick="location='https://t.me/ari_m1'" class="item-content">
+							<div class="item-media">
+								<img style="width:50px;height:50px;border-radius:30%;background-color:black;" src="img/ari.png">
+							</div>
+							<div class="item-inner">
+								<div class="item-title-row">
+									<div class="item-title">@ari_m1</div>
+								</div>
+							<div class="item-inner">
+								<div class="item-title-row">
+									<div class="item-title">به‌ڕێوبه‌ر</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div onclick="location='https://t.me/ferkaribokurd11'" class="item-content">
+							<div class="item-media">
+								<img style="width:50px;height:50px;border-radius:30%;background-color:black;" src="img/CydiaIcon.png">
+							</div>
+							<div class="item-inner">
+								<div class="item-title-row">
+									<div class="item-title">@ferkaribokurd11</div>
+								</div>
+								<div class="item-inner">
+									<div class="item-title-row">
+										<div class="item-title">چەناڵ</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<div class="popup" id="dl-popup">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">...دابه‌زاندن</div>
+							<div class="title-large">
+								<div class="title-large-text" style="text-align:right">...دابه‌زاندن</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<img style="width:100%;" src="img/dl.png">
+							<div class="block-title" style="margin-top: 1.25%; text-align: right;">ئه‌م كێشه‌یه‌چیه‌؟</div>
+							<div class="block block-strong">
+								<h2 style="text-align: center;">"Untrusted Enterprise Developer"?</h2>
+								<p style="text-align: right;">تۆ پێویسته‌ ڕه‌زامه‌ندی ده‌رببڕیت بۆ ئه‌وه‌ی كه‌ ئه‌په‌كه‌ كاركات بۆ ئه‌مه‌<br> Settings بڕۆ > General > Profiles And Device Management > ده‌ستبنێ به‌‌زیاد كراو > Trust ده‌ست بنێ .</p>
+								<h2 style="text-align: right;">بۆ تروست نابێت؟</h2>
+								<p style="text-align: right;">ئه‌گه‌ر توشی ئه‌م حاله‌ته‌بوویت ئه‌وه‌ كره‌یتفی ئه‌په‌كه‌ به‌سه‌ر چووه‌ پێویسته‌ نوێ كرێته‌وه‌ له‌لایه‌ن نە بۆ ئاگادار بوون له‌ نوێ بوونه‌ .جۆینی چه‌ناڵن به‌ له‌ ته‌له‌گرام<br>(<span onclick="location='https://t.me/ferkaribokurd11'"><a href="https://t.me/ferkaribokurd11">@ferkaribokurd11</a></span>)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
 
 
-<li class="list-group-item">
-    <span class="icon"> <img src="img/tiktok.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://anas-ios.netlify.app/plist/carx.plist">‎install<i class="gg-arrow-down-r">‎</i></a>
-   <div class="parag"><p>TikTok</p>
-<div class="r"></div> 
-   <p class="p1">پارەی بێ سنور</p>
-</li>
+		<div class="popup" id="dl-popup">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">...دابه‌زاندن</div>
+							<div class="title-large">
+								<div class="title-large-text" style="text-align:right">...دابه‌زاندن</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<img style="width:100%;" src="img/dl.png">
+							<div class="block-title" style="margin-top: 1.25%; text-align: right;">ئه‌م كێشه‌یه‌چیه‌؟</div>
+							<div class="block block-strong">
+								<h2 style="text-align: center;">"Untrusted Enterprise Developer"?</h2>
+								<p style="text-align: right;">تۆ پێویسته‌ ڕه‌زامه‌ندی ده‌رببڕیت بۆ ئه‌وه‌ی كه‌ ئه‌په‌كه‌ كاركات بۆ ئه‌مه‌<br> Settings بڕۆ > General > Profiles And Device Management > ده‌ستبنێ به‌‌زیاد كراو > Trust ده‌ست بنێ .</p>
+								<h2 style="text-align: right;">بۆ تروست نابێت؟</h2>
+								<p style="text-align: right;">ئه‌گه‌ر توشی ئه‌م حاله‌ته‌بوویت ئه‌وه‌ كره‌یتفی ئه‌په‌كه‌ به‌سه‌ر چووه‌ پێویسته‌ نوێ كرێته‌وه‌ له‌لایه‌ن نە بۆ ئاگادار بوون له‌ نوێ بوونه‌ .جۆینی چه‌ناڵن به‌ له‌ ته‌له‌گرام<br>(<span onclick="location='https://t.me/ferkaribokurd11'"><a href="https://t.me/ferkaribokurd11">@ferkaribokurd11</a></span>)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
 
 
 
-<li class="list-group-item">
-    <span class="icon"> <img src="img/ithunder.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install<i class="gg-arrow-down-r">‎</i></a>
-   <div class="parag"><p>iThunder</p>
-<div class="g"></div> 
-   <p class="p1">هاکی زوم و مایکرۆ</p>
-</li>
+	<div class="popup" id="soon">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">بەم زوونە</div>
+							<div class="title-large">
+								<div class="title-large-text" style="text-align:right">بەم زوونە</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+				
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
 
 
 
-<li class="list-group-item">
-    <span class="icon"> <img src="img/terabox.png"> </span>
-    <a id="r" class="button1" href="itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/appcake.plist">‎install<i class="gg-arrow-down-r">‎</i></a>
-   <div class="parag"><p>TeraBox</p>
-<div class="g"></div> 
-   <p class="p1">پی ئێس پی کۆتا ئەپدەیت</p>
-</li>
+		<div class="popup" id="fixxx1">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">ڕێگای یه‌که‌م</div>
+							<div class="title-large">
+								<div class="title-large-text" style="text-align:right">ڕێگای یه‌که‌م</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<div class="block block-strong">
+								<p style="text-align: center;"> "settings"  سەرەتا بچۆ</p>
+								<p style="text-align: center;">دواتر دەستێک بنێ بەو وایفایە کە کراوەتەوە لات  وەرە خوارەوە 
+									برۆ بەشی Automatic
+									بیکە بە Configure Proxy </p>
+								<img style="width:100%;" src="img/fiiii1.jpg">
+								<p style="text-align: center;">url  ئەم لینکە دانێ
+								<br>"http://ffapple.com" </p>
+								<img style="width:100%;" src="img/fii.JPG">
+								<p style="text-align: right;">پاشان خەتت بکوژنێەوە برۆ سەفەری کەڵێر داتا بکە ئینجا خەت بکەرەوە بەرنامەی مەبەست دابەزێنە</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+		<div class="popup" id="reprovision">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">reprovision</div>
+							<div class="title-large">
+								<div class="title-large-text">reprovision</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<div class="block-title" style="margin-top: 1.25%; text-align: right;">چارەسەری ڕیڤۆک بوونی ئەپەکان</div>
+							<div class="block block-strong">
+							<h2 style="text-align: right;">سەرەتا:ڕیپڤژن چیە؟</h2>
+							<p style="text-align: right;">  ڕیپڤژن بەرنامەیەکە بۆ ئنیستاڵکردنی بەرنامەکانی دەرەوەی ئەپستۆر کە لەشێوەی ئایپی ئەیان یان نوێ کردنەوەی بەرنامەکان لەسەر ئەپڵ ئایدی خۆت بۆ ٧ ڕۆژ بەبەردەوامی</p>
+							<p style="text-align: right;">________________________</p>
+							<h2 style="text-align: right;">دابەزاندنی بە سیدیا</h2>
+							<p style="text-align: right;">سەرەتا پێویسته‌ ئەم سۆرسە زیادبکەی لە سیدیا </p>
+							<p style="text-align: right;">سۆرسی</p>
+							<h3 style="text-align: center;">"https://repo.packix.com"</h3>
+							<p style="text-align: center;">(<span onclick="location='cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.packix.com'"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.packix.com">زیاکردن ڕاستەوخۆ بۆ سیدیا</a></span>)</p>
+							<p style="text-align: right;">پاشان ئەم تویکە دابەزێنە لە سیدیا </p>
+							<h3 style="text-align: center;">"ReProvision Reborn"</h3>
 
 
 
-<center>
-  <a href="https://t.me/OMKO_STORE" ><i class="fa fa-telegram"></i></a>
-  
-  
-    <p class="ana">OMKO STORE 2023</p>
-  </center>
+		
+
+		<div class="popup" id="appleidd">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">ئەڵت ستۆری</div>
+							<div class="title-large">
+								<div class="title-large-text">ئەڵت ستۆری</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<img style="width:100%;" src="img/altstotre.png">
+							<div class="block-title" style="margin-top: 1.25%; text-align: right;">چارەسەری ڕیڤۆک بوونی ئەپەکان</div>
+							<div class="block block-strong">
+							<h2 style="text-align: right;">سەرەتا: ئەڵت ستۆری چیە؟</h2>
+							<p style="text-align: right;"> ئەڵت ستۆری بەرنامەیەکە بۆ ئنیستاڵکردنی بەرنامەکانی دەرەوەی ئەپستۆر کە لەشێوەی ئایپی ئەیان</p>
+							<p style="text-align: right;">  ئاسای خۆی لەڕێگای کۆمپیتەر ئنیستاڵ ئەکرێ </p>
+							<p style="text-align: right;">وە پێویستی بە سیدیا نابێت<br>(<span onclick="location='https://t.me/ferkaribokurd11/241'"><a href="https://t.me/ferkaribokurd11/241">بینینی فێرکاریکەی بێ سیدیا</a></span>)</p>
+							<p style="text-align: right;">________________________</p>
+							<h2 style="text-align: right;">دابەزاندنی بە سیدیا</h2>
+							<p style="text-align: right;">سەرەتا پێویسته‌ ئەم تویکە دابەزێنین لە سیدیا </p>
+							<p style="text-align: right;">سۆرسی تویک </p>
+							<h3 style="text-align: center;">"https://cydia.akemi.ai/"</h3>
+							<p style="text-align: center;">(<span onclick="location='cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.akemi.ai/'"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.akemi.ai/">زیاکردن ڕاستەوخۆ بۆ سیدیا</a></span>)</p>
+							<p style="text-align: right;">ناوی تویک </p>
+							<h3 style="text-align: center;">"appsync unified"</h3>
+							<p style="text-align: right;">پاشان ئەڵتستۆری دابەزێنە<br>(<span onclick="location='itms-services://?action=download-manifest&url=https://www.kurdstore.info/ios/alt.plist'"><a href="itms-services://?action=download-manifest&url=https://www.kurdstore.info/ios/alt.plist">لێرە-install</a></span>)<br>پاشان پێوستیمان بە تویکێکی تر ئەبێت</p>
+                            <p style="text-align: right;">سۆرسی تویک </p>
+							<h3 style="text-align: center;">"http://cydia.kiiimo.org/"</h3>
+							<p style="text-align: center;">(<span onclick="location='cydia://url/https://cydia.saurik.com/api/share#?source=http://cydia.kiiimo.org/'"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://cydia.kiiimo.org/">زیاکردن ڕاستەوخۆ بۆ سیدیا</a></span>)</p>
+							<p style="text-align: right;">ناوی تویک </p>
+							<h3 style="text-align: center;">"altdaemon"</h3>
+							<p style="text-align: right;">پاشان بڕۆ ئەڵت ستۆری بەرنامەیەک ئینساڵکە دوای ئەپڵ ئایدیمان لێ ئەکات داخڵبە پاشان ڕێفرێشکە ئەبینین دوو ئەڵتستۆری لە ناو مۆبایلەکەمان هەیە ئەوەی یەکەم جار دامانبەزاند بیسڕەوە لەگەڵ یەکەم تویک کەناوی<br>appsync unified</p>
+							<p style="text-align: right;">ئەڵتستۆرە تازەکە بێکێشە کار ئەکات</p>
+
+        		<div class="popup" id="appleid">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">ئەپڵ ئایدی</div>
+							<div class="title-large">
+								<div class="title-large-text">ئەپڵ ئایدی</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<img style="width:100%;" src="img/appleid.png">
+							<div class="block-title" style="margin-top: 1.25%; text-align: right;">هەنک لەیاری و بەرنامە بەپارەکانی تیایە</div>
+							<div class="block block-strong">
+							<h2>email:arynawzad81@gmail.com<br>password:Ferkaribokurd1</h2>
+							<p style="text-align: right;">بەهیچ شێوەیەک لە ئایکڵۆد داغڵی مەکە باتوشی کێشە نەبی و زانیاریەکانت نەڕوات بۆ کەسێکی تر<br>ئێمە بەرپرسنین لە هیچ شتێک ئایکڵۆد بۆ کەس لانابەین<br>تکایە ئەگەر کارت پێ نەما لای خۆت دایخەرەوە با کەسێکی تر سودمەند بێ</p>
+								<h2 style="text-align: right;">داغڵ نابێ؟</h2>
+								<p style="text-align: right;">ئەگەر داغڵ نەبوو ئەوە لۆک بووە یان دیسەیبڵ پێویستەلەلایەن ئەدمینەوە بکرێتەوە لە گرووپ نامەیان بۆ بنێرە<br>(<span onclick="location='https://t.me/ferkaribokurd1'"><a href="https://t.me/ferkaribokurd1">@ferkaribokurd11</a></span>)</p>
+						
+
+		<div class="popup" id="jbs-popup">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">جه‌ڵبرێك</div>
+							<div class="title-large">
+								<div class="title-large-text">جه‌ڵبرێك</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<div class="block-title" style="margin-left: 15px;margin-top: 75px;">ئه‌په‌كان</div>
+							<div class="list media-list" id="all">
+								<ul>
+																		<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/unc0ver.php'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/unc0ver.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">unc0ver</div>
+													<div class="item-title" style="color: #808080">v6.1.1</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@unc0verTeam</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
 
 
-   <script src="script.js" >
-    </script>
-   <script src="routes.js" >
-    </script>
-</div>
-  </body>
+									<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/Taurine.php'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/Taurine.jpg">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">Taurine</div>
+													<div class="item-title" style="color: #808080">v1.0</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">TheOdysseyJB</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
+
+																	
+																		<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/Odyssey.php'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/Odyssey.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">Odyssey Beta 3</div>
+													<div class="item-title" style="color: #808080">تێست 3</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@TheOdysseyJB</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arynawzad10/kurdstore/master/jb/electra.plist'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/Electra.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">Electra</div>
+													<div class="item-title" style="color: #808080">v1.3.2</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@Electra_Team</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
+																		<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arynawzad10/kurdstore/master/jb/root.plist'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/rootlessJB4.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">rootlessJB4</div>
+													<div class="item-title" style="color: #808080">RC 2.1</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@rootlessJB4</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
+																		<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arynawzad10/kurdstore/master/jb/chimera.plist'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/Chimera.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">Chimera</div>
+													<div class="item-title" style="color: #808080">v1.4.0</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@Electra_Team</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
+														 			</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="popup" id="socialmedia">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">تۆڕەکان</div>
+							<div class="title-large">
+								<div class="title-large-text">تۆڕەکان</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<div class="block-title" style="margin-left: 15px;margin-top: 75px;">ئه‌په‌كان</div>
+							<div class="list media-list" id="all">
+								<ul>
+																		<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arynawzad10/kurdstore/master/app%2B/facbook.plist'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/facebook.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">facebook</div>
+													<div class="item-title" style="color: #808080">v282.0</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@facebook</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
+																		<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arynawzad10/kurdstore/master/app%2B/instagram.plist'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/instagram.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">instagram</div>
+													<div class="item-title" style="color: #808080">v153.0</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@facebook</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+
+		<div class="popup" id="other-popup">
+			<div class="view">
+				<div class="page">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title sliding">ئه‌په‌كان / زیادكراوه‌كان</div>
+							<div class="title-large">
+								<div class="title-large-text">ئه‌په‌كان / زیادكراوه‌كان</div>
+							</div>
+							<div class="right">
+								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-content">
+						<div style="margin-top:53px;padding:0px;" class="block">
+							<div class="block-title" style="margin-left: 15px;margin-top: 75px;">ئه‌په‌كان</div>
+							<div class="list media-list" id="all">
+								<ul>
+									<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/videostarAri.php'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">videostar(ari)</div>
+													<div class="item-title" style="color: #808080">v8.3.2</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@ari_m1</div>
+													<div class="item-subtitle" style="color: #808080">کۆد بە لۆن ئیشئەکات</div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
+																		<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=kurdstore.info/videostar.php'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">videostar ++</div>
+													<div class="item-title" style="color: #808080">v8.3.2</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@Frontier</div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+									</li>
+																		<li>
+										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+										<div onclick="location='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arynawzad10/kurdstore/master/apphack/kinemaster.plist'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/Kinemaster.png">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">Kinemaster</div>
+													<div class="item-title" style="color: #808080">v4.14.3</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@KineMaster </div>
+													<div class="item-subtitle" style="color: #808080"></div>
+												</div>
+											</div>
+										</div>
+										</a>
+										<li>
+											<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+											<div onclick="location='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arynawzad10/kurdstore/master/apphack/picsart.plist'" class="item-content">
+												<div class="item-media">
+													<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/picsart.png">
+												</div>
+												<div class="item-inner">
+													<div class="item-title-row">
+														<div class="item-title">picsart</div>
+														<div class="item-title" style="color: #808080">v15.3.3</div>
+													</div>
+													<div class="item-title-row">
+														<div class="item-subtitle">@PicsArt  </div>
+														<div class="item-subtitle" style="color: #808080"></div>
+													</div>
+												</div>
+											</div>
+											</a>
+
+
+											<div class="popup" id="storek">
+												<div class="view">
+													<div class="page">
+														<div class="navbar navbar-large">
+															<div class="navbar-bg"></div>
+															<div class="navbar-inner">
+																<div class="title sliding">ستۆرەکان</div>
+																<div class="title-large">
+																	<div class="title-large-text">ستۆرەکان</div>
+																</div>
+																<div class="right">
+																	<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+																</div>
+															</div>
+														</div>
+														<div class="page-content">
+															<div style="margin-top:53px;padding:0px;" class="block">
+																<div class="block-title" style="margin-left: 15px;margin-top: 75px;">ئه‌په‌كان</div>
+																<div class="list media-list" id="all">
+																	<ul>
+																											<li>
+																			<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+																			<div onclick="location='itms-services://?action=download-manifest&amp;url=https://www.iphonecake.com/app/appcake.plist'" class="item-content">
+																				<div class="item-media">
+																					<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/appcake.png">
+																				</div>
+																				<div class="item-inner">
+																					<div class="item-title-row">
+																						<div class="item-title">appcake</div>
+																						<div class="item-title" style="color: #808080">v7</div>
+																					</div>
+																					<div class="item-title-row">
+																						<div class="item-subtitle">@appcake</div>
+																						<div class="item-subtitle" style="color: #808080"></div>
+																					</div>
+																				</div>
+																			</div>
+																			</a>
+																		</li>
+                                                                        <li>
+																			<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+																			<div onclick="location='itms-services://?action=download-manifest&amp;url=https://esign.yyyue.xyz/esign.plist'" class="item-content">
+																				<div class="item-media">
+																					<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/esing.png">
+																				</div>
+																				<div class="item-inner">
+																					<div class="item-title-row">
+																						<div class="item-title">esign</div>
+																						<div class="item-title" style="color: #808080">v1.6</div>
+																					</div>
+																					<div class="item-title-row">
+																						<div class="item-subtitle">@esign</div>
+																						<div class="item-subtitle" style="color: #808080"></div>
+																					</div>
+																				</div>
+																			</div>
+																			</a>
+																		</li>
+																											
+
+
+										<div class="popup" id="pubghk">
+											<div class="view">
+												<div class="page">
+													<div class="navbar navbar-large">
+														<div class="navbar-bg"></div>
+														<div class="navbar-inner">
+															<div class="title sliding">پۆبجی هاککراو</div>
+															<div class="title-large">
+																<div class="title-large-text">پۆبجی هاککراو</div>
+															</div>
+															<div class="right">
+																<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+															</div>
+														</div>
+													</div>
+													<div class="page-content">
+														<div style="margin-top:53px;padding:0px;" class="block">
+															<div class="block-title" style="margin-left: 15px;margin-top: 75px;">! بەهیچ شێوەیەک لەسەر ئەکاونتی خۆت تاقی مەکەرەوە </div>
+															<div class="list media-list" id="all">
+																<ul>
+																										<li>
+																		<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+																		<div onclick="location='itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arynawzad10/kurdstore/master/pubg/pubg.plist'" class="item-content">
+																			<div class="item-media">
+																				<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/pubggb.png">
+																			</div>
+																			<div class="item-inner">
+																				<div class="item-title-row">
+																					<div class="item-title">پۆبجی جیهانی هاککراو</div>
+																					<div class="item-title" style="color: #808080">v(last)</div>
+																				</div>
+																				<div class="item-title-row">
+																					<div class="item-subtitle">@tencent</div>
+																					<div class="item-subtitle" style="color: #808080"></div>
+																				</div>
+																			</div>
+																		</div>
+																		</a>
+																	</li>
+																										<li>
+																		<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
+																		<div onclick="location='itms-services://?action=download-manifest&url=https%3a%2f%2fapp.cydia97.org%2fplist%2fpubgvn.plist'" class="item-content">
+																			<div class="item-media">
+																				<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/pubgvn.png">
+																			</div>
+																			<div class="item-inner">
+																				<div class="item-title-row">
+																					<div class="item-title">پۆبجی ڤێتنامی هاککراو</div>
+																					<div class="item-title" style="color: #808080">v(last)</div>
+																				</div>
+																				<div class="item-title-row">
+																					<div class="item-subtitle">@tencent</div>
+																					<div class="item-subtitle" style="color: #808080"></div>
+																				</div>
+																			</div>
+																		</div>
+																		</a>
+																	</a>	
+																</li>
+
+                                   <div class="popup" id="mod">
+											<div class="view">
+												<div class="page">
+													<div class="navbar navbar-large">
+														<div class="navbar-bg"></div>
+														<div class="navbar-inner">
+															<div class="title sliding">شتی تر</div>
+															<div class="title-large">
+																<div class="title-large-text">شتی تر</div>
+															</div>
+															<div class="right">
+																<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+															</div>
+														</div>
+													</div>
+													<div class="page-content">
+														<div style="margin-top:53px;padding:0px;" class="block">
+														
+															<div class="list media-list" id="all">
+																<ul>
+																										<li>
+																		<a href="#" style="color: inherit;" class="popup-open" data-popup="#fixing">
+								<div class="item-content">
+									<div class="item-media">
+										<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/fix.jpg">
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+											<div class="item-title">fix revoked</div>
+										</div>
+										<div class="item-title-row">
+											<div class="item-subtitle">چاره‌سه‌ری دانه‌به‌زاندن</div>
+										</div>
+									</div>
+								</div>
+								</a>
+                                <a href="#" style="color: inherit;" class="popup-open" data-popup="#appleidd">
+                                    <div onclick="location='#'" class="item-content">
+                                        <div class="item-media">
+                                            <img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/alt.png">
+                                        </div>
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">altstore</div>
+                                                <div class="item-title" style="color: #808080">by/@ari_m1</div>
+                                            </div>
+                                            <div class="item-title-row">
+                                                <div class="item-subtitle">@altstore</div>
+                                                <div class="item-subtitle" style="color: #808080">فێرکاری</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </a>
+									<a href="#" style="color: inherit;" class="popup-open" data-popup="#reprovision">
+										<div onclick="location='#'" class="item-content">
+											<div class="item-media">
+												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/repro.jpg">
+											</div>
+											<div class="item-inner">
+												<div class="item-title-row">
+													<div class="item-title">reprovision reborn</div>
+													<div class="item-title" style="color: #808080">by/@ari_m1</div>
+												</div>
+												<div class="item-title-row">
+													<div class="item-subtitle">@reborn</div>
+													<div class="item-subtitle" style="color: #808080">فێرکاری</div>
+												</div>
+											</div>
+										</div>
+										</a>
+																	</a>	
+																</li>
+												<div class="popup" id="fixing">
+												<div class="view">
+													<div class="page">
+														<div class="navbar navbar-large">
+															<div class="navbar-bg"></div>
+															<div class="navbar-inner">
+																<div class="title sliding">کورد ستۆر</div>
+																<div class="title-large">
+																	<div class="title-large-text">کورد ستۆر</div>
+																</div>
+																<div class="right">
+																	<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
+																</div>
+															</div>
+														</div>
+														<div class="page-content">
+															<div style="margin-top:53px;padding:0px;" class="block">
+																<div class="block-title" style="margin-left: 15px;margin-top: 75px;">هەنگاوەکان</div>
+																<div class="list media-list" id="all">
+																	<ul>
+																											<li>
+																			<a href="#" style="color: inherit;" class="popup-open" data-popup="#fixxx1">
+																			<div onclick="#" class="item-content">
+																				<div class="item-media">
+																					<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/fix1.png">
+																				</div>
+																				<div class="item-inner">
+																					<div class="item-title-row">
+																						<div class="item-title">ڕێگای یه‌که‌م</div>
+																						<div class="item-title" style="color: #808080">@ari_m1</div>
+																					</div>
+																					<div class="item-title-row">
+																						<div class="item-subtitle">Test first</div>
+																						<div class="item-subtitle" style="color: #808080"></div>
+																					</div>
+																				</div>
+																			</div>
+																			</a>
+																		</li>
+                                                                        <li>
+																			<a href="#" style="color: inherit;" class="popup-open" data-popup="#soon">
+																			<div onclick="#" class="item-content">
+																				<div class="item-media">
+																					<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/fix2.jpg">
+																				</div>
+																				<div class="item-inner">
+																					<div class="item-title-row">
+																						<div class="item-title">ڕێگای دووه‌م</div>
+																						<div class="item-title" style="color: #808080">@ari_m1</div>
+																					</div>
+																					<div class="item-title-row">
+																						<div class="item-subtitle">Test Second</div>
+																						<div class="item-subtitle" style="color: #808080"></div>
+																					</div>
+																				</div>
+																			</div>
+																			</a>
+																		</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	
+		<script src="framework7/js/framework7.bundle.min.js"></script>
+		<script src="js/routes.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/inobounce.js"></script>
+		<script type="text/javascript">
+			document.getElementById("info_label").innerHTML = ((navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].replace(/_/g,".").replace("OS","iOS") + " - KurdStore v2.0");
+		</script>
+	</body>
+
 </html>
