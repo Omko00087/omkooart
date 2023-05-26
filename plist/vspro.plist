@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/video-star-11.2.8-com.frontierdesign.videostara-7a-i-phone-distribution-huseyin-/Video%20Star_11.2.8_com.frontierdesign.videostara7a_iPhone%20Distribution%3A%20Huseyin%20Karabalik%20%28SFSY34F3WC%29_1671559553.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://www.zhanyar.ml/logo/favicon.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://www.zhanyar.ml/logo/favicon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.frontierdesign.videostara7a</string>
+				<key>bundle-version</key>
+				<string>11.2.8</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>Video Star Pro</string>
+				<key>title</key>
+				<string> 
+Video Star Pro 
+       
+       
+Zhanyar Store 📦   
+
+"لەبوونی هەر کێشەیەک دەتوانی نامە بۆ پەیچی تیلیگرام بنێریت"
+Telegram : zhanyarstore</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
