@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/car-parking-4.7.7-1685097575/Car%20Parking_4.7.7_1685097575.ipa</string>
+					<string>https://archive.org/download/pubg-mobile-17320-1682962632/PUBG%20%20MOBILE_17320_1682962632.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,15 +33,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.aidana.cardriving.ios1</string>
+				<string>com.tencent.ig111‏</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Car Parking</string>
+				<string>PUBG GL MOBILE</string>
 				<key>title</key>
-				<string>📥Car Parking📥
+				<string>📥PUBG GL MOBILE📥
 
 ‎تایەبەتە بە چەناڵی
 
@@ -49,7 +49,7 @@
 
 لەتێلێگرام
 
-</string>
+<string>
 			</dict>
 		</dict>
 	</array>
