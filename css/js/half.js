@@ -1,15 +1,3 @@
-var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
-if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
-{
-  let window = _____WB$wombat$assign$function_____("window");
-  let self = _____WB$wombat$assign$function_____("self");
-  let document = _____WB$wombat$assign$function_____("document");
-  let location = _____WB$wombat$assign$function_____("location");
-  let top = _____WB$wombat$assign$function_____("top");
-  let parent = _____WB$wombat$assign$function_____("parent");
-  let frames = _____WB$wombat$assign$function_____("frames");
-  let opener = _____WB$wombat$assign$function_____("opener");
-
 /*
  * -----------------------------------------------------------------------------
  * Halfmoon JS
@@ -198,27 +186,3 @@ function halfmoonOnDOMContentLoaded() {
     halfmoon.pageWrapper && halfmoon.pageWrapper.classList.add("with-transitions")
 }
 document.addEventListener("DOMContentLoaded", halfmoonOnDOMContentLoaded);
-
-}
-/*
-     FILE ARCHIVED ON 19:27:00 Apr 09, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:01:57 Dec 20, 2022.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 429.425
-  exclusion.robots: 0.091
-  exclusion.robots.policy: 0.083
-  RedisCDXSource: 296.995
-  esindex: 0.012
-  LoadShardBlock: 111.278 (3)
-  PetaboxLoader3.datanode: 98.077 (5)
-  CDXLines.iter: 17.214 (3)
-  load_resource: 165.304
-  PetaboxLoader3.resolve: 128.615
-  loaddict: 9.976
-*/
